@@ -18,7 +18,7 @@ vocabularies, etc.), packaged for runtime access from Python as a
 referencing-based Schema Registry.
 
 %files
-%{py_sitedir}/jsonschema-specifications
+%{py_sitedir}/jsonschema_specifications
 %{py_sitedir}/jsonschema_specifications-*.*-info
 
 #-----------------------------------------------------------------------
@@ -31,4 +31,3 @@ referencing-based Schema Registry.
 
 %install
 %py_install
-
