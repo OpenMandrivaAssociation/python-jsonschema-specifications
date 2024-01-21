@@ -7,7 +7,7 @@ Group:		Development/Python
 URL:		https://pypi.org/project/jsonschema-specifications/
 Source0:	https://pypi.org/packages/source/j/jsonschema-specifications/jsonschema_specifications-%{version}.tar.gz
 BuildRequires:	python%{pyver}dist(hatchling)
-BuildRequires:	python%{pyver}dist(hatch-vcs]
+BuildRequires:	python%{pyver}dist(hatch-vcs)
 BuildRequires:	python%{pyver}dist(pip)
 
 BuildArch:	noarch
