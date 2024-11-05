@@ -1,6 +1,6 @@
 Summary:	The JSON Schema meta-schemas and vocabularies, exposed as a Registry
 Name:		python-jsonschema-specifications
-Version:	2023.12.1
+Version:	2024.10.1
 Release:	1
 License:	MIT
 Group:		Development/Python
