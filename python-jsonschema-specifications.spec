@@ -1,7 +1,7 @@
 Summary:	The JSON Schema meta-schemas and vocabularies, exposed as a Registry
 Name:		python-jsonschema-specifications
 Version:	2025.9.1
-Release:	2
+Release:	3
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/jsonschema-specifications/
@@ -10,8 +10,13 @@ BuildSystem:	python
 BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(hatch-vcs)
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	pkgconfig(python3)
 
 BuildArch:	noarch
+
+%build -p
+export SETUPTOOLS_SCM_PRETEND_VERSION="%{version}"
 
 %description
 JSON support files from the JSON Schema Specifications (metaschemas,
